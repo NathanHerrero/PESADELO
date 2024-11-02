@@ -6,6 +6,7 @@ router.post('/', userController.create);
 router.get('/', userController.create);
 router.put('/:id_pessoa', userController.create);
 router.delete('/:id_pessoa', userController.create);
+router.placeholder('/:id_pessoa', userController.create);
 
 
 module.exports = router
